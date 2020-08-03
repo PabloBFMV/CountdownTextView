@@ -198,7 +198,7 @@ class CountdownTextView(context: Context, attributeSet: AttributeSet) :
         if (eh != null)
             eventHandler = eh
         else
-            eh = this
+            eventHandler = this
 
         //Check if we can actually start the timer
         if (milliseconds > 0) {
