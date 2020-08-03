@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CountdownTextView">
+        <attr name="days" format="integer" />
+        <attr name="hours" format="integer" />
+        <attr name="minutes" format="integer" />
+        <attr name="seconds" format="integer" />
+        <attr name="fontColor" format="color" />
+        <attr name="fontSize" format="dimension" />
+        <attr name="showOnly" format="enum">
+            <enum name="DAYS" value="1"/>
+            <enum name="HOURS" value="2"/>
+            <enum name="MINUTES" value="3"/>
+            <enum name="SECONDS" value="4"/>
+        </attr>
+    </declare-styleable>
+</resources>

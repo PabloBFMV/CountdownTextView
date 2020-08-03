@@ -1,2 +1,3 @@
+include ':CountdownTextView'
 include ':app'
 rootProject.name = "CountdownTextViewTest"
